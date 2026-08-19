@@ -8,9 +8,9 @@ This prototype is the smallest thing that can test that bet. No accounts, no Sla
 
 **Production:** https://standup-lite.vercel.app
 
-Deployed on Vercel (AGKbuilds team). Clipboard copy works on the live URL — no `file://` workaround needed.
-
 **Dashboard:** https://vercel.com/agk-builds/standup-lite
+
+Clipboard copy works on the live URL — no `file://` workaround needed.
 
 ## How to run locally
 
