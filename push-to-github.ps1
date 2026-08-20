@@ -4,4 +4,4 @@ gh auth login --hostname github.com --git-protocol https --web
 
 # 2. Create the repo and push
 Set-Location $PSScriptRoot
-gh repo create standup-lite --public --source=. --remote=origin --push --description "A tiny async standup board — test whether written updates can replace the daily meeting."
+gh repo create standup-lite --org agk-builds --public --source=. --remote=origin --push --description "A tiny async standup board — test whether written updates can replace the daily meeting."
