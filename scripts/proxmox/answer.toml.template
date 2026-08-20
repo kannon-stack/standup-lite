@@ -1,0 +1,22 @@
+[global]
+keyboard = "en-us"
+country = "us"
+fqdn = "{{FQDN}}"
+mailto = "admin@lab.local"
+timezone = "America/Los_Angeles"
+root-password-hashed = "{{ROOT_PASSWORD_HASH}}"
+root-ssh-keys = [
+  "{{SSH_PUBKEY}}"
+]
+reboot-mode = "power-off"
+
+[network]
+source = "from-dhcp"
+
+[disk-setup]
+filesystem = "ext4"
+disk-list = ["sda"]
+
+[first-boot]
+source = "from-iso"
+ordering = "fully-up"

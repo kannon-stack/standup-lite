@@ -1,2 +1,9 @@
 .vercel/
 deploy-payload*.json
+scripts/proxmox/.cache/
+scripts/proxmox/secrets.env
+scripts/proxmox/keys/id_ed25519
+*.iso
+*.vhdx
+*.qcow2
+*.img
